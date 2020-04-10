@@ -140,7 +140,7 @@ header {
   }
 
   .logo {
-    height: 100%;
+    height: 80%;
     @include transition(0.4s);
 
     img {
@@ -301,6 +301,10 @@ header.min {
   height: 70px;
   background: #fff;
   box-shadow: 0 0 0 0.2rem rgba(23, 37, 58, 0.1);
+
+  .logo {
+    height: 100%;
+  }
 }
 
 .margins {
@@ -416,7 +420,7 @@ section.color {
 }
 
 section.green {
-  background-color: #50b590 !important;
+  background-color: #3a9c78 !important;
 }
 
 section.dark {
@@ -615,7 +619,7 @@ footer {
     color: $text-light;
     font-size: 0.65rem;
     width: 100%;
-    font-weight: 600;
+    font-weight: 400;
     text-align: center;
 
     a {
@@ -1036,11 +1040,11 @@ p.social-links {
   }
 
   h1 {
-    font-size: 2.75rem !important;
+    font-size: 2.5rem !important;
   }
 
   h2 {
-    font-size: 2.25rem !important;
+    font-size: 2.2rem !important;
   }
 
   h3 {
@@ -1094,6 +1098,7 @@ p.social-links {
       font-size: 0.6rem;
       width: 100%;
       line-height: 1.25;
+      font-weight: 400;
       text-align: center;
     }
   }
