@@ -58,28 +58,28 @@ function generateFooter(page) {
   <div class="quick-links">  
     <div class="col">
       <div class="title">Navigation</div>
-      <a>Home</a>
-      <a>Products</a>
-      <a>Team</a>
-      <a>Careers</a>
+      <a href="${page == "home" ? "./" : "../"}">Home</a>
+      <a href="${page == "home" ? "./" : "../"}products">Products</a>
+      <a href="${page == "home" ? "./" : "../"}team">Team</a>
+      <a href="${page == "home" ? "./" : "../"}careers">Careers</a>
     </div>
     <div class="col">
       <div class="title">Quick Links</div>
-      <a>About</a>
+      <a href="${page == "home" ? "./" : "../"}">About</a>
       <a>Blog</a>
-      <a>Connect</a>
+      <a href="${page == "home" ? "./" : "../"}contact">Connect</a>
     </div>
     <div class="col">
       <div class="title">Social Media</div>
-      <a>LinkedIn</a>
-      <a>Instagram</a>
-      <a>Twitter</a>
+      <a href="https://www.linkedin.com/company/beltech-green/" target="_blank">LinkedIn</a>
+      <a href="https://angel.co/company/beltech-3" target="_blank">Angellist</a>
+      <a href="https://www.facebook.com/beltech1/" target="_blank">Facebook</a>
     </div>
   </div>
   <div class="socials">
-  <a><i class="fab fa-linkedin-in"></i></a>
-  <a><i class="fab fa-instagram"></i></a>
-  <a><i class="fab fa-facebook-f"></i></a>
+  <a href="https://www.linkedin.com/company/beltech-green/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+  <a href="https://angel.co/company/beltech-3" target="_blank"><i class="fab fa-angellist"></i></a>
+  <a href="https://www.facebook.com/beltech1/" target="_blank"><i class="fab fa-facebook-f"></i></a>
   </div>
   </div>
   <p class="sm">

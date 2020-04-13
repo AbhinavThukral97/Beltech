@@ -573,6 +573,13 @@ p {
   height: 100%;
   width: 100%; }
 
+.vision-image {
+  background: url("../img/Smart City.jpg");
+  background-size: cover; }
+
+.vision-split .split {
+  background-color: #f6fdfb; }
+
 footer {
   padding: 50px 0px;
   padding-bottom: 15px;
@@ -683,11 +690,17 @@ img.full-width {
   flex-direction: row;
   padding: 10px 0px; }
   .features-wrapper .circle-image {
+    position: relative;
     width: 200px;
     height: 200px;
     border-radius: 100%;
     background: #ebf0f3;
     margin: 25px; }
+    .features-wrapper .circle-image img {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0; }
   .features-wrapper .feature {
     width: calc(100% - 280px);
     margin: 15px; }
@@ -946,6 +959,7 @@ p.social-links a:hover {
   .features-wrapper {
     display: block; }
     .features-wrapper .circle-image {
+      position: relative;
       width: 150px;
       height: 150px;
       border-radius: 100%;

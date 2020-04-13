@@ -610,6 +610,15 @@ p {
   width: 100%;
 }
 
+.vision-image {
+  background: url("../img/Smart\ City.jpg");
+  background-size: cover;
+}
+
+.vision-split .split {
+  background-color: #f6fdfb;
+}
+
 footer {
   padding: 50px 0px;
   padding-bottom: 15px;
@@ -728,11 +737,19 @@ img.full-width {
   padding: 10px 0px;
 
   .circle-image {
+    position: relative;
     width: 200px;
     height: 200px;
     border-radius: 100%;
     background: $bluegrey;
     margin: 25px;
+
+    img {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
   }
 
   .feature {
@@ -1107,6 +1124,7 @@ p.social-links {
     display: block;
 
     .circle-image {
+      position: relative;
       width: 150px;
       height: 150px;
       border-radius: 100%;
