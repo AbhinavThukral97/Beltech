@@ -578,7 +578,7 @@ p {
   background-size: cover; }
 
 .vision-split .split {
-  background-color: #f6fdfb; }
+  background-color: #f7f7f7; }
 
 footer {
   padding: 50px 0px;
@@ -643,6 +643,46 @@ footer {
         transition: all 0.25s ease; }
       footer .quick-links .col a:hover {
         color: #fff !important; }
+
+.info-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .info-wrapper .info-tile {
+    width: 250px;
+    padding: 10px;
+    margin: 20px; }
+    .info-wrapper .info-tile .infographic {
+      font-size: 3.25rem;
+      color: #f58706;
+      text-align: center;
+      margin: 15px 0px; }
+      .info-wrapper .info-tile .infographic b {
+        font-family: "Spartan", sans-serif;
+        font-weight: 600;
+        font-size: 2.5rem;
+        color: #237aff; }
+    .info-wrapper .info-tile .title {
+      font-size: 1.3rem;
+      font-family: "Spartan", sans-serif;
+      font-weight: 600;
+      text-align: center;
+      margin: 5px 0px; }
+    .info-wrapper .info-tile p {
+      font-size: 1rem;
+      text-align: center; }
+
+section.grey {
+  background: #f7f7f7; }
+
+section.dark .info-wrapper .info-tile .title {
+  color: #fff; }
 
 /* PRODUCTS */
 .intro.products {

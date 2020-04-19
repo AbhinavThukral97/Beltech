@@ -616,7 +616,7 @@ p {
 }
 
 .vision-split .split {
-  background-color: #f6fdfb;
+  background-color: #f7f7f7;
 }
 
 footer {
@@ -688,6 +688,59 @@ footer {
       }
       a:hover {
         color: #fff !important;
+      }
+    }
+  }
+}
+
+.info-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .info-tile {
+    width: 250px;
+    padding: 10px;
+    margin: 20px;
+
+    .infographic {
+      font-size: 3.25rem;
+      color: $secondary-color;
+      text-align: center;
+      margin: 15px 0px;
+      b {
+        font-family: $primary-font;
+        font-weight: 600;
+        font-size: 2.5rem;
+        color: $primary-color;
+      }
+    }
+
+    .title {
+      font-size: 1.3rem;
+      font-family: $primary-font;
+      font-weight: 600;
+      text-align: center;
+      margin: 5px 0px;
+    }
+
+    p {
+      font-size: 1rem;
+      text-align: center;
+    }
+  }
+}
+
+section.grey {
+  background: #f7f7f7;
+}
+
+section.dark {
+  .info-wrapper {
+    .info-tile {
+      .title {
+        color: #fff;
       }
     }
   }

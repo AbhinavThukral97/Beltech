@@ -70,7 +70,7 @@ function generateFooter(page) {
       <a href="${page == "home" ? "./" : "../"}contact">Connect</a>
     </div>
     <div class="col">
-      <div class="title">Social Media</div>
+      <div class="title">Connect</div>
       <a href="https://www.linkedin.com/company/beltech-green/" target="_blank">LinkedIn</a>
       <a href="https://angel.co/company/beltech-3" target="_blank">Angellist</a>
       <a href="https://www.facebook.com/beltech1/" target="_blank">Facebook</a>
