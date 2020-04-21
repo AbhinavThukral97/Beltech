@@ -382,12 +382,17 @@ section {
   width: 100%;
   background: #fff; }
 
+section.home-bg {
+  background: url("../img/Back.jpg");
+  background-size: cover;
+  background-position: center bottom; }
+
 section.intro {
   padding-top: calc(100px + 100px) !important;
   padding-bottom: calc(100px + 0px) !important; }
 
 section.add-space-bottom {
-  padding-bottom: 150px !important; }
+  padding-bottom: 200px !important; }
 
 section.fix-space-bottom {
   padding-bottom: 50px; }
@@ -415,6 +420,9 @@ section.dark {
     color: #fff; }
   section.dark p {
     color: #b0bdca; }
+
+section.dark-color {
+  background-color: #1d233a; }
 
 section.full-height {
   height: 100vh;
@@ -548,6 +556,11 @@ p {
     cursor: pointer;
     border-bottom: 1px solid rgba(0, 0, 0, 0.5); }
 
+p.sm {
+  font-size: 0.75rem !important;
+  margin: 10px 0px;
+  font-family: "Spartan", sans-serif; }
+
 .split-wrapper {
   width: 100%;
   display: -ms-grid;
@@ -578,7 +591,7 @@ p {
   background-size: cover; }
 
 .vision-split .split {
-  background-color: #f7f7f7; }
+  background-color: #ebf0f3; }
 
 footer {
   padding: 50px 0px;
@@ -657,29 +670,29 @@ footer {
   .info-wrapper .info-tile {
     width: 250px;
     padding: 10px;
-    margin: 20px; }
+    margin: 10px; }
     .info-wrapper .info-tile .infographic {
       font-size: 3.25rem;
       color: #f58706;
       text-align: center;
       margin: 15px 0px; }
-      .info-wrapper .info-tile .infographic b {
-        font-family: "Spartan", sans-serif;
-        font-weight: 600;
-        font-size: 2.5rem;
-        color: #237aff; }
+    .info-wrapper .info-tile .infographic.primary {
+      color: #237aff; }
     .info-wrapper .info-tile .title {
       font-size: 1.3rem;
       font-family: "Spartan", sans-serif;
       font-weight: 600;
       text-align: center;
       margin: 5px 0px; }
+      .info-wrapper .info-tile .title b {
+        font-size: 1.5rem;
+        color: #f58706; }
     .info-wrapper .info-tile p {
       font-size: 1rem;
       text-align: center; }
 
 section.grey {
-  background: #f7f7f7; }
+  background: #ebf0f3; }
 
 section.dark .info-wrapper .info-tile .title {
   color: #fff; }

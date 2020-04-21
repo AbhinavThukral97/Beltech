@@ -394,13 +394,19 @@ section {
   background: #fff;
 }
 
+section.home-bg {
+  background: url("../img/Back.jpg");
+  background-size: cover;
+  background-position: center bottom;
+}
+
 section.intro {
   padding-top: calc(100px + 100px) !important;
   padding-bottom: calc(100px + 0px) !important;
 }
 
 section.add-space-bottom {
-  padding-bottom: 150px !important;
+  padding-bottom: 200px !important;
 }
 
 section.fix-space-bottom {
@@ -438,6 +444,10 @@ section.dark {
   p {
     color: $text-light;
   }
+}
+
+section.dark-color {
+  background-color: #1d233a;
 }
 
 section.full-height {
@@ -583,6 +593,12 @@ p {
   }
 }
 
+p.sm {
+  font-size: 0.75rem !important;
+  margin: 10px 0px;
+  font-family: $primary-font;
+}
+
 .split-wrapper {
   width: 100%;
   display: grid;
@@ -616,7 +632,7 @@ p {
 }
 
 .vision-split .split {
-  background-color: #f7f7f7;
+  background-color: $bluegrey;
 }
 
 footer {
@@ -702,19 +718,17 @@ footer {
   .info-tile {
     width: 250px;
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
 
     .infographic {
       font-size: 3.25rem;
       color: $secondary-color;
       text-align: center;
       margin: 15px 0px;
-      b {
-        font-family: $primary-font;
-        font-weight: 600;
-        font-size: 2.5rem;
-        color: $primary-color;
-      }
+    }
+
+    .infographic.primary {
+      color: $primary-color;
     }
 
     .title {
@@ -723,6 +737,10 @@ footer {
       font-weight: 600;
       text-align: center;
       margin: 5px 0px;
+      b {
+        font-size: 1.5rem;
+        color: $secondary-color;
+      }
     }
 
     p {
@@ -733,16 +751,12 @@ footer {
 }
 
 section.grey {
-  background: #f7f7f7;
+  background: $bluegrey;
 }
 
 section.dark {
-  .info-wrapper {
-    .info-tile {
-      .title {
-        color: #fff;
-      }
-    }
+  .info-wrapper .info-tile .title {
+    color: #fff;
   }
 }
 
