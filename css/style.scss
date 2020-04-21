@@ -593,7 +593,7 @@ p {
   }
 }
 
-p.sm {
+.career p.sm {
   font-size: 0.75rem !important;
   margin: 10px 0px;
   font-family: $primary-font;
@@ -642,7 +642,7 @@ footer {
 
   p.sm {
     color: $text-light;
-    font-size: 0.65rem;
+    font-size: 10px;
     width: 100%;
     font-weight: 400;
     text-align: center;
@@ -1179,7 +1179,7 @@ p.social-links {
 
     p.sm {
       margin-top: 20px;
-      font-size: 11px !important;
+      font-size: 10px !important;
       width: 100%;
       line-height: 1.25;
       font-weight: 400;
