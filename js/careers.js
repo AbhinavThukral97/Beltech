@@ -2,10 +2,28 @@ function generateCareerElem(data) {
   return `<div class="career">
       <h6 class="margins">${data.Position}</h6>
       <p>
-        <b>Job Description</b>
+        <b>Key problem to solve</b>
       </p>
       <p>
-        ${data.Description}
+        ${data.Problem}
+      </p>
+      <p>
+        <b>Method</b>
+      </p>
+      <p>
+        ${data.Method}
+      </p>
+      <p>
+        <b>Technical Expertise</b>
+      </p>
+      <p>
+        ${data.Technical}
+      </p>
+      <p>
+        <b>Basic Knowledge</b>
+      </p>
+      <p>
+        ${data.Knowledge}
       </p>
       <p class="sm">Posted on ${data.Posted}</p>
       <a href="${data.Link}" target="_blank">
@@ -27,8 +45,6 @@ $(document).ready(function () {
   var data;
   jQuery.get("careers.csv", (csv) => {
     var data = $.csv.toObjects(csv);
-    data.shift();
-
     fillCareers(data);
     $("input.search-box").keyup(function (e) {
       q = $("input.search-box").val().toLowerCase();

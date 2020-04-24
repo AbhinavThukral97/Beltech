@@ -394,6 +394,10 @@ section {
   background: #fff;
 }
 
+section.light-grey {
+  background: #f5f9fc;
+}
+
 section.home-bg {
   background: url("../img/Back.jpg");
   background-size: cover;
@@ -427,6 +431,10 @@ section.color {
 
 section.green {
   background-color: #3a9c78 !important;
+
+  p {
+    color: rgba(255, 255, 255, 0.7) !important;
+  }
 }
 
 section.dark {
@@ -599,6 +607,19 @@ p {
   font-family: $primary-font;
 }
 
+.career {
+  p {
+    margin: 5px 0px !important;
+
+    b {
+      color: $text-dark;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 0.75em;
+    }
+  }
+}
+
 .split-wrapper {
   width: 100%;
   display: grid;
@@ -734,7 +755,7 @@ footer {
     .title {
       font-size: 1.3rem;
       font-family: $primary-font;
-      font-weight: 600;
+      font-weight: 700 !important;
       text-align: center;
       margin: 5px 0px;
       b {
@@ -886,11 +907,21 @@ input.search-box:focus {
     margin: 20px;
 
     .photo {
+      position: relative;
       width: 100px;
       height: 100px;
       background: $bluegrey;
       border-radius: 100%;
       margin: 20px auto;
+      overflow: hidden;
+
+      img {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+      }
     }
 
     p {

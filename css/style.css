@@ -382,6 +382,9 @@ section {
   width: 100%;
   background: #fff; }
 
+section.light-grey {
+  background: #f5f9fc; }
+
 section.home-bg {
   background: url("../img/Back.jpg");
   background-size: cover;
@@ -408,6 +411,8 @@ section.color {
 
 section.green {
   background-color: #3a9c78 !important; }
+  section.green p {
+    color: rgba(255, 255, 255, 0.7) !important; }
 
 section.dark {
   background-color: #12161d; }
@@ -561,6 +566,14 @@ p {
   margin: 10px 0px;
   font-family: "Spartan", sans-serif; }
 
+.career p {
+  margin: 5px 0px !important; }
+  .career p b {
+    color: #1d2e47;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.75em; }
+
 .split-wrapper {
   width: 100%;
   display: -ms-grid;
@@ -681,7 +694,7 @@ footer {
     .info-wrapper .info-tile .title {
       font-size: 1.3rem;
       font-family: "Spartan", sans-serif;
-      font-weight: 600;
+      font-weight: 700 !important;
       text-align: center;
       margin: 5px 0px; }
       .info-wrapper .info-tile .title b {
@@ -816,11 +829,19 @@ input.search-box:focus {
     border-radius: 4px;
     margin: 20px; }
     .team-wrapper .team-member .photo {
+      position: relative;
       width: 100px;
       height: 100px;
       background: #ebf0f3;
       border-radius: 100%;
-      margin: 20px auto; }
+      margin: 20px auto;
+      overflow: hidden; }
+      .team-wrapper .team-member .photo img {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0; }
     .team-wrapper .team-member p {
       text-align: center;
       padding: 0;
