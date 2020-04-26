@@ -1,6 +1,6 @@
 function generateCareerElem(data) {
   return `<div class="team-member">
-    <div class="photo"><!--<img src="${data.ImagePath}"/>--></div>
+    <div class="photo"><img src="${data.ImagePath}" alt="Team member image"/></div>
     <p class="lg">${data.Name}</p>
     <p>${data.Position}</p>
   </div>`;
