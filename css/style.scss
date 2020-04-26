@@ -568,6 +568,10 @@ button.secondary {
   color: $text-dark;
 }
 
+button.color {
+  background: $secondary-color;
+}
+
 button:after {
   content: "";
   position: absolute;

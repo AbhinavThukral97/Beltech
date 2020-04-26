@@ -529,6 +529,9 @@ button.secondary {
   background: #ebf0f3;
   color: #1d2e47; }
 
+button.color {
+  background: #f58706; }
+
 button:after {
   content: "";
   position: absolute;
