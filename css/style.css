@@ -395,7 +395,7 @@ section.intro {
   padding-bottom: calc(100px + 0px) !important; }
 
 section.add-space-bottom {
-  padding-bottom: 200px !important; }
+  padding-bottom: 260px !important; }
 
 section.fix-space-bottom {
   padding-bottom: 50px; }
@@ -903,7 +903,7 @@ p.social-links a:hover {
   section.intro {
     padding-top: calc(70px + 100px) !important; }
   section.add-space-bottom {
-    padding-bottom: 120px !important; }
+    padding-bottom: 175px !important; }
   section.fix-space-bottom {
     padding-bottom: 35px; }
   section.fix-space-top {
@@ -987,7 +987,7 @@ p.social-links a:hover {
   section.intro {
     padding-top: calc(50px + 100px) !important; }
   section.add-space-bottom {
-    padding-bottom: 100px !important; }
+    padding-bottom: 125px !important; }
   section.fix-space-bottom {
     padding-bottom: 25px; }
   section.fix-space-top {
