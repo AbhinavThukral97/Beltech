@@ -26,7 +26,7 @@ function generateCareerElem(data) {
         ${data.Knowledge}
       </p>
       <p class="sm">Posted on ${data.Posted}</p>
-      <a href="${data.Link}" target="_blank">
+      <a href="../apply" target="_blank">
       <button class="secondary margin-fix">
         Apply <i class="fas fa-arrow-right"></i>
       </button>

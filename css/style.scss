@@ -980,6 +980,11 @@ p.social-links {
   }
 }
 
+.googleform {
+  width: 100%;
+  min-height: 1500px;
+}
+
 @media only screen and (max-width: 1000px) {
   .content {
     width: 70%;
@@ -1252,5 +1257,10 @@ p.social-links {
       width: 100%;
       padding: 15px 0px;
     }
+  }
+
+  .googleform {
+    width: 100%;
+    min-height: 1600px;
   }
 }

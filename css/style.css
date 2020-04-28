@@ -889,6 +889,10 @@ p.social-links a {
 p.social-links a:hover {
   color: #237aff !important; }
 
+.googleform {
+  width: 100%;
+  min-height: 1500px; }
+
 @media only screen and (max-width: 1000px) {
   .content {
     width: 70%; }
@@ -1052,4 +1056,7 @@ p.social-links a:hover {
     padding-top: 30px; }
     .contact-wrapper .details {
       width: 100%;
-      padding: 15px 0px; } }
+      padding: 15px 0px; }
+  .googleform {
+    width: 100%;
+    min-height: 1600px; } }
