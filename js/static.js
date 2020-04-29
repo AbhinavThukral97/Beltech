@@ -71,13 +71,13 @@ function generateFooter(page) {
     </div>
     <div class="col">
       <div class="title">Connect</div>
-      <a href="https://www.linkedin.com/company/beltech-green/" target="_blank">LinkedIn</a>
+      <a href="https://www.linkedin.com/company/beltechai/" target="_blank">LinkedIn</a>
       <a href="https://angel.co/company/beltech-3" target="_blank">Angellist</a>
       <a href="https://www.facebook.com/beltech1/" target="_blank">Facebook</a>
     </div>
   </div>
   <div class="socials">
-  <a href="https://www.linkedin.com/company/beltech-green/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+  <a href="https://www.linkedin.com/company/beltechai/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
   <a href="https://angel.co/company/beltech-3" target="_blank"><i class="fab fa-angellist"></i></a>
   <a href="https://www.facebook.com/beltech1/" target="_blank"><i class="fab fa-facebook-f"></i></a>
   </div>
