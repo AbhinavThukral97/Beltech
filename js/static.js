@@ -66,7 +66,6 @@ function generateFooter(page) {
     <div class="col">
       <div class="title">Quick Links</div>
       <a href="${page == "home" ? "./" : "../"}">About</a>
-      <a>Blog</a>
       <a href="${page == "home" ? "./" : "../"}contact">Connect</a>
     </div>
     <div class="col">
