@@ -830,7 +830,8 @@ input.search-box:focus {
     padding-bottom: 40px;
     border: 1px solid #ebf0f3;
     border-radius: 4px;
-    margin: 20px; }
+    margin: 20px;
+    cursor: pointer; }
     .team-wrapper .team-member .photo {
       position: relative;
       width: 100px;
@@ -892,6 +893,89 @@ p.social-links a:hover {
 .googleform {
   width: 100%;
   min-height: 1500px; }
+
+.black-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.25);
+  z-index: 100000; }
+
+.team-pop-up {
+  position: fixed;
+  top: 10vh;
+  left: 10vw;
+  width: calc(80vw - 20px);
+  height: calc(80vh - 20px);
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  overflow: auto;
+  z-index: 1000001;
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
+  .team-pop-up .close-button {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 1.4rem;
+    color: #b0bdca;
+    cursor: pointer;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease; }
+  .team-pop-up .close-button:hover {
+    color: #58788c; }
+  .team-pop-up .content-lg {
+    margin-top: 30px; }
+  .team-pop-up .data-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .team-pop-up .data-wrapper .photo {
+      position: relative;
+      width: 120px;
+      height: 120px;
+      overflow: hidden;
+      border-radius: 100%; }
+      .team-pop-up .data-wrapper .photo img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        height: 100%;
+        width: 100%; }
+    .team-pop-up .data-wrapper .data {
+      width: calc(100% - 160px);
+      padding: 40px; }
+      .team-pop-up .data-wrapper .data p {
+        line-height: 1; }
+        .team-pop-up .data-wrapper .data p b {
+          font-size: 1.2rem; }
+        .team-pop-up .data-wrapper .data p a {
+          font-size: 0.9rem; }
+
+.black-screen.close {
+  display: none; }
+
+.team-pop-up.close {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0); }
 
 @media only screen and (max-width: 1000px) {
   .content {

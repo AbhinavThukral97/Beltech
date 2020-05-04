@@ -909,6 +909,7 @@ input.search-box:focus {
     border: 1px solid $bluegrey;
     border-radius: 4px;
     margin: 20px;
+    cursor: pointer;
 
     .photo {
       position: relative;
@@ -983,6 +984,98 @@ p.social-links {
 .googleform {
   width: 100%;
   min-height: 1500px;
+}
+
+.black-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.25);
+  z-index: 100000;
+}
+
+.team-pop-up {
+  position: fixed;
+  top: 10vh;
+  left: 10vw;
+  width: calc(80vw - 20px);
+  height: calc(80vh - 20px);
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  overflow: auto;
+  z-index: 1000001;
+  opacity: 1;
+  @include transition(0.2s);
+
+  .close-button {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 1.4rem;
+    color: $text-light;
+    cursor: pointer;
+    @include transition(0.25s);
+  }
+
+  .close-button:hover {
+    color: $text;
+  }
+
+  .content-lg {
+    margin-top: 30px;
+  }
+
+  .data-wrapper {
+    display: flex;
+    align-items: center;
+
+    .photo {
+      position: relative;
+      width: 120px;
+      height: 120px;
+      overflow: hidden;
+      border-radius: 100%;
+
+      img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    .data {
+      width: calc(100% - 160px);
+      padding: 40px;
+
+      p {
+        line-height: 1;
+
+        b {
+          font-size: 1.2rem;
+        }
+
+        a {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}
+
+.black-screen.close {
+  display: none;
+}
+
+.team-pop-up.close {
+  opacity: 0;
+  transform: scale(0);
 }
 
 @media only screen and (max-width: 1000px) {
