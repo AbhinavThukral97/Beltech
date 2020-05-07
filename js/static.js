@@ -59,7 +59,7 @@ function generateFooter(page) {
     <div class="col">
       <div class="title">Navigation</div>
       <a href="${page == "home" ? "./" : "../"}">Home</a>
-      <a href="${page == "home" ? "./" : "../"}products">Products</a>
+      <a href="${page == "home" ? "./" : "../"}products">Product</a>
       <a href="${page == "home" ? "./" : "../"}team">Team</a>
       <a href="${page == "home" ? "./" : "../"}careers">Careers</a>
     </div>
