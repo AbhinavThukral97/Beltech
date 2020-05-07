@@ -128,7 +128,7 @@ header {
   width: 100%;
   height: $header-height;
   background: transparent;
-  pointer-events: none;
+  // pointer-events: none;
   z-index: 1000;
   @include transition(0.5s);
 
@@ -1031,6 +1031,7 @@ p.social-links {
 
   .data-wrapper {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 
     .photo {
@@ -1052,10 +1053,10 @@ p.social-links {
 
     .data {
       width: calc(100% - 160px);
-      padding: 40px;
+      padding: 20px;
 
       p {
-        line-height: 1;
+        line-height: 1.25;
 
         b {
           font-size: 1.2rem;
@@ -1355,5 +1356,28 @@ p.social-links {
   .googleform {
     width: 100%;
     min-height: 1600px;
+  }
+
+  .team-pop-up {
+    .data-wrapper {
+      justify-content: center;
+      .photo {
+      }
+
+      .data {
+        width: calc(100%);
+        padding: 0;
+        margin: 20px 0px;
+
+        h5 {
+          text-align: center;
+        }
+
+        p {
+          line-height: 1;
+          text-align: center;
+        }
+      }
+    }
   }
 }

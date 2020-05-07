@@ -115,7 +115,6 @@ header {
   width: 100%;
   height: 100px;
   background: transparent;
-  pointer-events: none;
   z-index: 1000;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -940,6 +939,8 @@ p.social-links a:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
@@ -960,9 +961,9 @@ p.social-links a:hover {
         width: 100%; }
     .team-pop-up .data-wrapper .data {
       width: calc(100% - 160px);
-      padding: 40px; }
+      padding: 20px; }
       .team-pop-up .data-wrapper .data p {
-        line-height: 1; }
+        line-height: 1.25; }
         .team-pop-up .data-wrapper .data p b {
           font-size: 1.2rem; }
         .team-pop-up .data-wrapper .data p a {
@@ -1143,4 +1144,17 @@ p.social-links a:hover {
       padding: 15px 0px; }
   .googleform {
     width: 100%;
-    min-height: 1600px; } }
+    min-height: 1600px; }
+  .team-pop-up .data-wrapper {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .team-pop-up .data-wrapper .data {
+      width: calc(100%);
+      padding: 0;
+      margin: 20px 0px; }
+      .team-pop-up .data-wrapper .data h5 {
+        text-align: center; }
+      .team-pop-up .data-wrapper .data p {
+        line-height: 1;
+        text-align: center; } }
