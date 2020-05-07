@@ -17,9 +17,13 @@ function generatePopUp(data) {
         <h5>${data.Name}</h5>
         <p><b>${data.Position}</b> &middot; <b>${data.Location}</b></p>
         <p>
-<a href="${data.LinkedIn}">LinkedIn</a> &middot; ${
-    data.Website != "NA" ? `<a href="${data.Website}">Website</a>` : ""
-  } &middot; ${data.Resume != "NA" ? `<a href="${data.Resume}">Resume</a>` : ""}
+        ${
+          data.LinkedIn != "NA"
+            ? `<a href="${data.LinkedIn}">LinkedIn</a> &middot;`
+            : ""
+        } ${
+    data.Website != "NA" ? `<a href="${data.Website}">Website</a> &middot;` : ""
+  }  ${data.Resume != "NA" ? `<a href="${data.Resume}">Resume</a>` : ""}
         </p>
       </div>
     </div>

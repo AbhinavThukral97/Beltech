@@ -8,7 +8,7 @@ function generateLinks(page) {
       <div class="link ${page == "products" ? "current" : ""}">
       <a href="${
         page == "home" ? "./" : "../"
-      }products"><div class="title">Product</div></a>
+      }products"><div class="title">Products</div></a>
         <!-- <div class="menu">
         <div class="menu-item">Smart Traffic Lights</div>
         </div> -->
@@ -30,9 +30,9 @@ function generateHeader(page) {
   const headerHTML =
     `<div class="content-lg">
     <div class="logo">
-      <img src="${
-        page == "home" ? "./" : "../"
-      }img/Logo.svg" alt="Beltech Logo" />
+    <a href="${page == "home" ? "./" : "../"}"><img src="${
+      page == "home" ? "./" : "../"
+    }img/Logo.svg" alt="Beltech Logo" /></a>
     </div>
     ` +
     generateLinks(page) +
@@ -51,15 +51,15 @@ function generateFooter(page) {
   const footerHTML = `<div class="content-lg">
   <div class="footer-wrapper">
   <div class="logo">
-  <img src="${
-    page == "home" ? "./" : "../"
-  }img/LogoSymbolMono.svg" alt="Beltech Logo" />
+    <img src="${
+      page == "home" ? "./" : "../"
+    }img/LogoSymbolMono.svg" alt="Beltech Logo" />
   </div>
   <div class="quick-links">  
     <div class="col">
       <div class="title">Navigation</div>
       <a href="${page == "home" ? "./" : "../"}">Home</a>
-      <a href="${page == "home" ? "./" : "../"}products">Product</a>
+      <a href="${page == "home" ? "./" : "../"}products">Products</a>
       <a href="${page == "home" ? "./" : "../"}team">Team</a>
       <a href="${page == "home" ? "./" : "../"}careers">Careers</a>
     </div>
