@@ -67,5 +67,10 @@ $(document).ready(function () {
       $(".team-pop-up").addClass("close");
       $(".black-screen").addClass("close");
     });
+
+    $(".black-screen").click(function () {
+      $(".team-pop-up").addClass("close");
+      $(".black-screen").addClass("close");
+    });
   });
 });
