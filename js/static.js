@@ -8,7 +8,7 @@ function generateLinks(page) {
       <div class="link ${page == "products" ? "current" : ""}">
       <a href="${
         page == "home" ? "./" : "../"
-      }products"><div class="title">Products</div></a>
+      }products"><div class="title">Product</div></a>
         <!-- <div class="menu">
         <div class="menu-item">Smart Traffic Lights</div>
         </div> -->
