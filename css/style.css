@@ -2,8 +2,7 @@
 ::-webkit-scrollbar {
   width: 12px;
   height: 5px;
-  background: transparent; 
-}
+  background: white; }
 
 ::-webkit-scrollbar-thumb {
   height: 6px;
@@ -105,7 +104,7 @@ body {
 a {
   color: inherit !important;
   text-decoration: none !important; }
-iframe{
+video{
   width:100%;
 }
 /* header.force-white {
@@ -551,8 +550,8 @@ h6 {
   color: #f58706 !important; }
 
 .button-wrapper {
-  /* display: -webkit-box;
-  display: -ms-flexbox; */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -590,7 +589,7 @@ button.margin-fix {
   margin-left: 0px; }
 
 button.secondary {
-  /* background: #ebf0f3; */
+  background: #ebf0f3;
   color: #1d2e47; }
 
 button.color {
@@ -618,6 +617,7 @@ button:hover:after {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    height: 450px;
     background: #1d0c5f3b;
   }
   /* On mouse-over, add a deeper shadow */
@@ -791,7 +791,7 @@ section.grey {
   background: #ebf0f3; }
 
 section.dark .info-wrapper .info-tile .title {
-  color: #1d233a; 
+  color: #fff; 
 }
 
 /* PRODUCTS */
@@ -909,6 +909,7 @@ input.search-box:focus {
   padding: 40px 0px; }
   .team-wrapper .team-member {
     width: calc(240px - 40px);
+    height: 12rem;
     padding: 20px;
     padding-bottom: 40px;
     border: 1px solid #ebf0f3;

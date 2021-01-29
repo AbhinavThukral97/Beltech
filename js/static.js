@@ -3,32 +3,32 @@ let navToggle = false;
 function generateLinks(page) {
   const innerHTML = `<div class="links">
     <div class="link ${page == "home" ? "current" : ""}">
-      <a href="${page == "home" ? "./" : "../"}">
+      <a href="${page == "home" ? "./" : "../"}index.html">
         <div class="title">Home</div>
       </a>
     </div>
     <div class="link ${page == "about" ? "current" : ""}">
-      <a href="${page == "home" ? "./" : "../"}#about">
+      <a href="${page == "home" ? "./" : "../"}index.html#about">
         <div class="title">About</div>
       </a>
     </div>
     <div class="link ${page == "products" ? "current" : ""}">
-      <a href="${page == "home" ? "./" : "../"}#product">
+      <a href="${page == "home" ? "./" : "../"}index.html#product">
         <div class="title">Product</div>
       </a>
     </div>
     <div class="link ${page == "team" ? "current" : ""}">
-      <a href="${page == "home" ? "./" : "../"}#team">
+      <a href="${page == "home" ? "./" : "../"}index.html#team">
         <div class="title">Team</div>
       </a>
     </div>
     <div class="link ${page == "careers" ? "current" : ""}">
-      <a href="${page == "home" ? "./" : "../"}#careers">
+      <a href="${page == "home" ? "./" : "../"}index.html#careers">
         <div class="title">Careers</div>
       </a>
     </div>
     <div class="link ${page == "contact" ? "current" : ""}">
-      <a href="${page == "home" ? "./" : "../"}#contact">
+      <a href="${page == "home" ? "./" : "../"}index.html#contact">
         <div class="title">Contact</div>
       </a>
     </div>
@@ -66,15 +66,15 @@ function generateFooter(page) {
   <div class="quick-links">  
     <div class="col">
       <div class="title">Navigation</div>
-      <a href="${page == "home" ? "./" : "../"}">Home</a>
-      <a href="${page == "home" ? "./" : "../"}#product">Products</a>
-      <a href="${page == "home" ? "./" : "../"}#team">Team</a>
-      <a href="${page == "home" ? "./" : "../"}#careers">Careers</a>
+      <a href="${page == "home" ? "./" : "../"}index.html">Home</a>
+      <a href="${page == "home" ? "./" : "../"}index.html#product">Products</a>
+      <a href="${page == "home" ? "./" : "../"}index.html#team">Team</a>
+      <a href="${page == "home" ? "./" : "../"}index.html#careers">Careers</a>
     </div>
     <div class="col">
       <div class="title">Quick Links</div>
-      <a href="${page == "home" ? "./" : "../"}#about">About</a>
-      <a href="${page == "home" ? "./" : "../"}#contact">Connect</a>
+      <a href="${page == "home" ? "./" : "../"}index.html#about">About</a>
+      <a href="${page == "home" ? "./" : "../"}index.html#contact">Connect</a>
     </div>
     <div class="col">
       <div class="title">Connect</div>
