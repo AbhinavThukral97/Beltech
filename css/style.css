@@ -2,7 +2,8 @@
 ::-webkit-scrollbar {
   width: 12px;
   height: 5px;
-  background: white; }
+  background: transparent; 
+}
 
 ::-webkit-scrollbar-thumb {
   height: 6px;
@@ -589,7 +590,7 @@ button.margin-fix {
   margin-left: 0px; }
 
 button.secondary {
-  background: #ebf0f3;
+  /* background: #ebf0f3; */
   color: #1d2e47; }
 
 button.color {
