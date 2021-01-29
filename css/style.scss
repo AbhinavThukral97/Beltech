@@ -2,7 +2,7 @@
 
 $primary-font: "Spartan", sans-serif;
 $secondary-font: "Gotu", sans-serif;
-$primary-color: #237aff;
+$primary-color: #f58706;
 $secondary-color: #f58706;
 $bluegrey: #ebf0f3;
 $primary-color-highlight: rgb(82, 149, 250);
@@ -299,7 +299,7 @@ header {
 
 header.min {
   height: 70px;
-  background: #fff;
+  background: #1d233a;
   box-shadow: 0 0 0 0.2rem rgba(23, 37, 58, 0.1);
 
   .logo {
@@ -399,7 +399,7 @@ section.light-grey {
 }
 
 section.home-bg {
-  background: url("../img/Back.jpg");
+  background: url("../img/Back.png");
   background-size: cover;
   background-position: center bottom;
 }
@@ -750,6 +750,7 @@ footer {
       color: $secondary-color;
       text-align: center;
       margin: 15px 0px;
+      height: 60px;
     }
 
     .infographic.primary {
@@ -909,6 +910,7 @@ input.search-box:focus {
     border: 1px solid $bluegrey;
     border-radius: 4px;
     margin: 20px;
+    height: 12rem;
     cursor: pointer;
 
     .photo {
