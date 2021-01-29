@@ -1,228 +1,186 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <title>Beltech</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
-    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
-  <link href="https://fonts.googleapis.com/css2?family=Gotu&family=Spartan:wght@400;500;600;700;800&display=swap"
-    rel="stylesheet" />
-  <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png" />
-  <link rel="manifest" href="./img/site.webmanifest" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
-
-<body>
-  <div class="loader">
-    <svg height="100" width="100" viewBox="0 0 100 100" class="trans">
-      <circle r="40" cx="50%" cy="50%" fill="none" stroke-width="5" stroke="rgba(0,0,0,0)" class="base"></circle>
-      <circle r="40" cx="50%" cy="50%" fill="none" stroke-width="4" class="filler"></circle>
-    </svg>
-  </div>
-  <header aria-label="home"></header>
-  <nav></nav>
-  <section class="intro add-space-bottom home-bg">
-    <div class="content-home">
-      <h1 class="light-color center padding-lr2">Building a Smarter India</h1>
-      <p class="secondary-color center">
-        by integrating public infrastructure with AI and IoT
-      </p>
-      <div class="button-wrapper">
-        <a href="#product"><button>View Our Product</button></a>
-        <a href="#careers"><button class="color">
-            Join the Team <i class="fas fa-user-friends"></i></button></a>
-      </div>
+  <head>
+    <title>Beltech</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+      integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gotu&family=Spartan:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./img/site.webmanifest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="loader">
+      <svg height="100" width="100" viewBox="0 0 100 100" class="trans">
+        <circle
+          r="40"
+          cx="50%"
+          cy="50%"
+          fill="none"
+          stroke-width="5"
+          stroke="rgba(0,0,0,0)"
+          class="base"
+        ></circle>
+        <circle
+          r="40"
+          cx="50%"
+          cy="50%"
+          fill="none"
+          stroke-width="4"
+          class="filler"
+        ></circle>
+      </svg>
     </div>
-  </section>
-  <section id="about">
-    <div class="content-lg">
-      <div class="info-wrapper">
-        <div class="content-about">
-          <h3>About Us</h3>
-          <hr />
-          <p>
-            Beltech's vision is to make urban and rural infrastructure smarter, in
-            order to facilitate faster, easier, and transparent governance. We
-            will achieve this using state of the art AI and integrating it with
-            the public infrastructure.
-          </p>
-        </div>
-        <div class="content-about">
-          <video controls>
-            <source src="video/about.mp4" type="video/mp4">
-          </video>
-          <!-- <iframe
-             src="https://www.youtube.com/embed/p-xKefAq3tU">
-          </iframe> -->
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="product" class="dark dark-color fix-space-bottom fix-space-top">
-    <h3 class="center margins-xl">Four Pillars of Beltech</h3>
-    <div class="content-lg">
-      <div class="info-wrapper">
-        <a href="./product1">
-        <div class="card info-tile">
-          <div class="infographic"><span class="iconify" data-icon="fa-solid:traffic-light" data-inline="false"></span>
-          </div>
-          <div class="title">Traffic Management</div>
-          <ul>
-            <li>Measure traffic density</li>
-            <li>Control the traffic signals using AI</li>
-          </ul>
-          <div class="button-wrapper">
-            <button>Read More</button>
-          </div>
-        </div>
-        </a>
-        <a href="./product2">
-        <div class="card info-tile">
-          <div class="infographic"><i class="fas fa-user-shield"></i></div>
-          <div class="title">Security</div>
-          <ul>
-            <li>Secure Mobile App</li>
-            <li>Crime Detection</li>
-            <li>Children Detection</li>
-          </ul>
-          <div class="button-wrapper">
-            <button><a href="./product2">Read More</a></button>
-          </div>
-        </div>
-        </a>
-        <div class="card info-tile">
-          <div class="infographic"><span class="iconify" data-icon="emojione-monotone:cityscape"
-              data-inline="false"></span></div>
-          <div class="title">Smart City</div>
-          <ul>
-            <li>Wifi Over the City</li>
-            <li>Garbage Detector</li>
-            <li>Smart Street Light</li>
-          </ul>
-          <div class="button-wrapper">
-            <a href="./product3"><button>Read More</button></a>
-          </div>
-        </div>
-        <div class="card info-tile">
-          <div class="infographic"><i class="fas fa-bus"></i></div>
-          <div class="title">Public Transport Tracking</div>
-          <ul>
-            <li>Bus Tracking</li>
-            <li>Auto Ricksha Tracking</li>
-          </ul>
-          <div class="button-wrapper">
-            <a href="./product4"><button>Read More</button></a>
-          </div>
+    <header aria-label="home"></header>
+    <nav></nav>
+    <section class="intro add-space-bottom home-bg">
+      <div class="content">
+        <h1 class="center">Building a Smarter India</h1>
+        <p class="center">
+          by integrating public infrastructure with AI and IoT
+        </p>
+        <div class="button-wrapper">
+          <a href="./products"><button>View Our Product</button></a>
+          <a href="./careers"
+            ><button class="color">
+              Join the Team <i class="fas fa-user-friends"></i></button
+          ></a>
         </div>
       </div>
-    </div>
-  </section>
-  <section id="team" class="fix-space-bottom">
-    <h3 class="center">Our Core Team</h3>
-    <div class="content-lg">
-      <div class="team-wrapper">
-        <div class="team-member" aria-label="${index}">
-          <div class="photo"><img src="./team/Agastya.png" alt="Team member image" /></div>
-          <p class="lg">Agastya Bellad</p>
-          <p>CEO</p>
+    </section>
+    <section class="dark dark-color">
+      <div class="content">
+        <h4>Vision</h4>
+        <hr />
+        <p>
+          Beltech's vision is to make urban and rural infrastructure smarter, in
+          order to facilitate faster, easier, and transparent governance. We
+          will achieve this using state of the art AI and integrating it with
+          the public infrastructure.
+        </p>
+      </div>
+    </section>
+    <!-- <section class="no-padding">
+      <div class="split-wrapper vision-split">
+        <div class="split">
+          <div class="content">
+            <h4>Vision</h4>
+            <hr />
+            <p>
+              Beltech's vision is to make urban and rural
+              infrastructure smarter, in order to facilitate faster, easier, and
+              transparent governance. We will achieve this using state of the
+              art AI and integrating it with the public infrastructure.
+            </p>
+          </div>
         </div>
-        <div class="team-member" aria-label="${index}">
-          <div class="photo"><img src="./team/Pinakee.jpeg" alt="Team member image" /></div>
-          <p class="lg">Pinakee Biswas</p>
-          <p>CTO</p>
-        </div>
-        <div class="team-member" aria-label="${index}">
-          <div class="photo"><img src="./team/Pranav.jpg" alt="Team member image" /></div>
-          <p class="lg">Pranav Bijapur</p>
-          <p>ML Engineer</p>
-        </div>
-        <div class="team-member" aria-label="${index}">
-          <div class="photo"><img src="./team/Adithya.png" alt="Team member image" /></div>
-          <p class="lg">Adithya Sampath</p>
-          <p>CV Engineer</p>
+        <div class="split">
+          <div class="vision-image"></div>
         </div>
       </div>
-    </div>
-    <div class="button-wrapper">
-      <a href="./team"><button class="color">
-          Our Complete Team <i class="fas fa-user-friends"></i></button></a>
-    </div>
-  </section>
-  <section id="product" class="grey fix-space-bottom fix-space-top">
-    <h3 class="center margins-xl">Open platform for developers</h3>
-    <h5 class="center margins-xl coming-soon">COMING &nbsp;&nbsp;SOON</h5>
-  </section>
-  <section id="careers" class="dark dark-color fix-space-bottom">
-    <div class="content-lg">
-      <h3>Join Our Team</h3>
-      <hr class="bottom-margin" />
-      <h6>Who we are looking for: </h6>
-      <p>We value trajectory of growth over years of experience. If you:</p>
-      <p>1. Are motivated by big gnarly problems, not by titles.</p>
-      <p>2. Are a generalist looking for a challenge to prove yourself.</p>
-      <p>
-        3. Are hungry for learning, winning and have something outstanding to
-        show for it.
-      </p>
-      <p>
-        4. Understand when to make trade-offs and are insistent that quality
-        doesn't always have to compromise speed.
-      </p>
-      <p>
-        5. Are a team player and understand a certain level of empathy is
-        required to empower an entire team over the individual.
-      </p>
-    </div>
-    <div class="button-wrapper">
-      <a href="./careers"><button class="color">
-          Open Roles<i class="fas fa-briefcase"></i></button></a>
-    </div>
-  </section>
-  <section id="contact">
-    <div class="content-lg">
-      <h3 class="center">Contact</h3>
-      <div class="contact-wrapper">
-        <div class="details">
-          <h6>Office Address</h6>
-          <p>
-            <span>20/1. Ali Asker Rd,</span>
-            <span>Vasanth Nagar, Bengaluru,</span>
-            <span>Karnataka 560052</span>
-          </p>
-        </div>
-        <div class="details">
-          <h6>E-mail</h6>
-          <p>office@beltech.ai</p>
-        </div>
-        <div class="details">
-          <h6>Phone Number</h6>
-          <p>+91-9845102222</p>
-        </div>
-        <div class="details">
-          <h6>Connect</h6>
-          <p class="social-links">
-            <a href="https://www.linkedin.com/company/beltechai/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://angel.co/company/beltech-3" target="_blank"><i class="fab fa-angellist"></i></a>
-            <a href="https://www.facebook.com/beltech1/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-          </p>
+    </section> -->
+    <section class="grey fix-space-bottom fix-space-top">
+      <div class="content-lg">
+        <div class="info-wrapper">
+          <div class="info-tile">
+            <div class="infographic"><i class="fas fa-chart-line"></i></div>
+            <div class="title">Outcome driven</div>
+            <p>
+              Our product is engineered to radically improve public
+              infrastructure, and fuel digital governance by building
+              connected cities.
+            </p>
+          </div>
+          <div class="info-tile">
+            <div class="infographic"><i class="fas fa-database"></i></div>
+            <div class="title">Data driven</div>
+            <p>
+              Our team is driven by data to enable faster, unbiased decisions to
+              make public infrastructure smarter.
+            </p>
+          </div>
+          <div class="info-tile">
+            <div class="infographic"><i class="fas fa-cloud"></i></div>
+            <div class="title">Cloud driven</div>
+            <p>
+              Our infrastructure has extended multi-cloud environments to
+              effectively manage, streamline, and boost operations.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <footer></footer>
-  <div class="black-screen close"></div>
-  <div class="team-pop-up close"></div>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-  <script type="text/javascript" src="js/static.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
-  <script type="text/javascript" src="../js/team.js"></script>
-</body>
-
+    </section>
+    <section class="light-grey">
+      <div class="content">
+        <h4>Why Beltech?</h4>
+        <p>
+          At Beltech, we are at the forefront of developing technology that
+          directly impacts a large number of people and significantly helps
+          them save time and increase their efficiency. We are creating a massive impact
+          on the infrastructure, and the governance of the country.
+        </p>
+        <p>
+          Moreover, the technology that we build will not only be used by the
+          government, but will also be open-sourced. This gives the power
+          back to the people, and truly democratises the development of the country.
+        </p>
+        <div class="button-wrapper">
+          <a href="./careers"
+            ><button class="color">
+              Join the Team <i class="fas fa-user-friends"></i></button
+          ></a>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="content">
+        <h5 class="highlight margins">Our Product</h5>
+        <h3>Traffic-Modulator.ai</h3>
+        <p>
+          Traffic-Modulator.ai assess, in real time, the volume of traffic
+          and pedestrians on each road and coordinate the traffic lights in a way to
+          decrease traffic density and optimise traffic flow.
+        </p>
+        <a href="./products"
+          ><button class="margin-fix">
+            Learn More <i class="fas fa-arrow-right"></i></button></a
+        ><a href="./careers"
+          ><button class="color">
+            Join the Team <i class="fas fa-user-friends"></i></button
+        ></a>
+      </div>
+    </section>
+    <footer></footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="js/static.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
 </html>
