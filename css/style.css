@@ -1,6 +1,6 @@
 /*Mixins and Essentials*/
 ::-webkit-scrollbar {
-  width: 12px;
+  width:0;
   height: 5px;
   background: transparent; }
 
