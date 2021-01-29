@@ -790,7 +790,7 @@ section.grey {
   background: #ebf0f3; }
 
 section.dark .info-wrapper .info-tile .title {
-  color: #1d233a; 
+  color: #1d233a !important; 
 }
 
 /* PRODUCTS */
