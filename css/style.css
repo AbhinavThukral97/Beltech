@@ -433,7 +433,7 @@ section.home-bg {
   background-position: center bottom; }
 
 section.intro {
-  padding-top: 18% !important;
+  padding-top: 27% !important;
   padding-bottom: calc(100px + 0px) !important; }
 
 section.add-space-bottom {
@@ -1080,7 +1080,7 @@ p.social-links a:hover {
   section {
     padding: 70px 0px; }
   section.intro {
-    padding-top: 18% !important; }
+    padding-top: 27% !important; }
   section.add-space-bottom {
     padding-bottom: 16%  !important; }
   section.fix-space-bottom {
