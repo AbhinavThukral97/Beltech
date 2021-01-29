@@ -104,7 +104,7 @@ body {
 a {
   color: inherit !important;
   text-decoration: none !important; }
-video{
+iframe{
   width:100%;
 }
 /* header.force-white {
