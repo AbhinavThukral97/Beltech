@@ -1,264 +1,224 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Beltech</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
-      integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Gotu&family=Spartan:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./img/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./img/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./img/favicon-16x16.png"
-    />
-    <link rel="manifest" href="./img/site.webmanifest" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
-  <body>
-    <div class="loader">
-      <svg height="100" width="100" viewBox="0 0 100 100" class="trans">
-        <circle
-          r="40"
-          cx="50%"
-          cy="50%"
-          fill="none"
-          stroke-width="5"
-          stroke="rgba(0,0,0,0)"
-          class="base"
-        ></circle>
-        <circle
-          r="40"
-          cx="50%"
-          cy="50%"
-          fill="none"
-          stroke-width="4"
-          class="filler"
-        ></circle>
-      </svg>
-    </div>
-    <header aria-label="home"></header>
-    <nav></nav>
-    <section class="intro add-space-bottom home-bg">
-      <div class="content-home">
-        <h1 class="light-color center padding-lr2">Building a Smarter India</h1>
-        <p class="secondary-color center">
-          by integrating public infrastructure with AI and IoT
-        </p>
-        <div class="button-wrapper">
-          <a href="#product"><button>View Our Product</button></a>
-          <a href="#careers"
-            ><button class="color">
-              Join the Team <i class="fas fa-user-friends"></i></button
-          ></a>
-        </div>
-      </div>
-    </section>
-    <section id="about">
-      <div class="content-lg">
-      <div class="info-wrapper">
-      <div class="content-about">
-        <h3>About Us</h3>
-        <hr/>
-        <p>
-          Beltech's vision is to make urban and rural infrastructure smarter, in
-          order to facilitate faster, easier, and transparent governance. We
-          will achieve this using state of the art AI and integrating it with
-          the public infrastructure.
-        </p>
-      </div>
-      <div class="content-about">
-        <video controls autoplay>
-          <source src="./video/about.mp4" type="video/mp4">
-        </video>
-      </div>
-      </div>
-      </div>
-    </section>
-    <section id="product" class="dark dark-color fix-space-bottom fix-space-top">
-      <h3 class="center margins-xl">Four Pillars of Beltech</h3>
-      <div class="content-lg">
-        <div class="info-wrapper">
-          <div class="card info-tile height">
-            <div class="infographic"><span class="iconify" data-icon="fa-solid:traffic-light" data-inline="false"></span></div>
-            <div class="title height3">Traffic Management</div>
-            <p class="height12">
-              Helps you to Measure traffic density. Control the traffic signals using AI to optimise traffic flow.
-              <br/>Helps you to keep track of illigal parking, speeding, wrong direction, red light violation, etc.
-            </p>
-            <div class="button-wrapper">
-              <a href="./product1/index.html"><button>Read More</button></a>
-            </div>
-          </div>
-          <div class="card info-tile height">
-            <div class="infographic"><i class="fas fa-user-shield"></i></div>
-            <div class="title height3">Security</div>
-            <p class="height12">
-              Our product helps you to keep track of criminal activities across the cities.
-              <br/>
-            </p>
-            <div class="button-wrapper">
-              <a href="./product2/index.html"><button>Read More</button></a>
-            </div>
-          </div>
-          <div class="card info-tile height">
-            <div class="infographic"><span class="iconify" data-icon="emojione-monotone:cityscape" data-inline="false"></span></div>
-            <div class="title height3">Smart City</div>
-            <p class="height12">
-              The objective is to promote cities that provide core infrastructure and give a decent quality of life to its citizens, a clean and sustainable environment and application of ‘Smart’ Solutions.
-            </p>
-            <div class="button-wrapper">
-              <a href="./product3/index.html"><button>Read More</button></a>
-            </div>
-          </div>
-          <div class="card info-tile height">
-            <div class="infographic"><i class="fas fa-bus"></i></div>
-            <div class="title height3">Public Transport Tracking</div>
-            <p class="height12">
-              The recent technological advances in mobile communication, computing and geo-positioning technologies have made real-time transit vehicle information systems an interesting application area.
-            </p>
-            <div class="button-wrapper">
-              <a href="./product4/index.html"><button>Read More</button></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="team" class="fix-space-bottom">
-        <h3 class="center">Our Core Team</h3>
-        <div class="content-lg">
-          <div class="team-wrapper">
-            <div class="team-member" aria-label="${index}">
-              <div class="photo"><img src="./team/Agastya.png" alt="Team member image"/></div>
-              <p class="lg">Agastya Bellad</p>
-              <p>CEO</p>
-            </div>
-            <div class="team-member" aria-label="${index}">
-              <div class="photo"><img src="./team/Pinakee.jpeg" alt="Team member image"/></div>
-              <p class="lg">Pinakee Biswas</p>
-              <p>CTO</p>
-            </div>
-            <div class="team-member" aria-label="${index}">
-              <div class="photo"><img src="./team/Pranav.jpg" alt="Team member image"/></div>
-              <p class="lg">Pranav Bijapur</p>
-              <p>ML Engineer</p>
-            </div>
-            <div class="team-member" aria-label="${index}">
-              <div class="photo"><img src="./team/Adithya.png" alt="Team member image"/></div>
-              <p class="lg">Adithya Sampath</p>
-              <p>Computer Vision Engineer</p>
-            </div>
-          </div>
-        </div>
-          <div class="button-wrapper">
-          <a href="./team/index.html"
-          ><button class="color">
-          Our Complete Team <i class="fas fa-user-friends"></i></button
-        ></a>
-        </div>
-    </section>
-    <section id="product" class="grey fix-space-bottom fix-space-top">
-      <h3 class="center margins-xl">Open platform for developers</h3>
-      <h5 class="center margins-xl coming-soon">COMING &nbsp;&nbsp;SOON</h5>
-    </section>
-    <section id="careers" class="dark dark-color fix-space-bottom">
-      <div class="content-lg">
-        <h3>Join Our Team</h3>
-        <hr class="bottom-margin" />
-        <h6>Who we are looking for: </h6>
-        <p>We value trajectory of growth over years of experience. If you:</p>
-        <p>1. Are motivated by big gnarly problems, not by titles.</p>
-        <p>2. Are a generalist looking for a challenge to prove yourself.</p>
-        <p>
-          3. Are hungry for learning, winning and have something outstanding to
-          show for it.
-        </p>
-        <p>
-          4. Understand when to make trade-offs and are insistent that quality
-          doesn't always have to compromise speed.
-        </p>
-        <p>
-          5. Are a team player and understand a certain level of empathy is
-          required to empower an entire team over the individual.
-        </p>
-      </div>
+
+<head>
+  <title>Beltech</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Gotu&family=Spartan:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png" />
+  <link rel="manifest" href="./img/site.webmanifest" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <div class="loader">
+    <svg height="100" width="100" viewBox="0 0 100 100" class="trans">
+      <circle r="40" cx="50%" cy="50%" fill="none" stroke-width="5" stroke="rgba(0,0,0,0)" class="base"></circle>
+      <circle r="40" cx="50%" cy="50%" fill="none" stroke-width="4" class="filler"></circle>
+    </svg>
+  </div>
+  <header aria-label="home"></header>
+  <nav></nav>
+  <section class="intro add-space-bottom home-bg">
+    <div class="content-home">
+      <h1 class="light-color center padding-lr2">Building a Smarter India</h1>
+      <p class="secondary-color center">
+        by integrating public infrastructure with AI and IoT
+      </p>
       <div class="button-wrapper">
-        <a href="./careers/index.html"
-        ><button class="color">
-          Open Roles<i class="fas fa-briefcase"></i></button
-      ></a>
+        <a href="#product"><button>View Our Product</button></a>
+        <a href="#careers"><button class="color">
+            Join the Team <i class="fas fa-user-friends"></i></button></a>
       </div>
-    </section>
-    <section id="contact">
-      <div class="content-lg">
-        <h3 class="center">Contact</h3>
-        <div class="contact-wrapper">
-          <div class="details">
-            <h6>Office Address</h6>
-            <p>
-              <span>20/1. Ali Asker Rd,</span>
-              <span>Vasanth Nagar, Bengaluru,</span>
-              <span>Karnataka 560052</span>
-            </p>
+    </div>
+  </section>
+  <section id="about">
+    <div class="content-lg">
+      <div class="info-wrapper">
+        <div class="content-about">
+          <h3>About Us</h3>
+          <hr />
+          <p>
+            Beltech's vision is to make urban and rural infrastructure smarter, in
+            order to facilitate faster, easier, and transparent governance. We
+            will achieve this using state of the art AI and integrating it with
+            the public infrastructure.
+          </p>
+        </div>
+        <div class="content-about">
+          <video controls autoplay>
+            <source src="./video/about.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="product" class="dark dark-color fix-space-bottom fix-space-top">
+    <h3 class="center margins-xl">Four Pillars of Beltech</h3>
+    <div class="content-lg">
+      <div class="info-wrapper">
+        <div class="card info-tile">
+          <div class="infographic"><span class="iconify" data-icon="fa-solid:traffic-light" data-inline="false"></span>
           </div>
-          <div class="details">
-            <h6>E-mail</h6>
-            <p>office@beltech.ai</p>
+          <div class="title">Traffic Management</div>
+          bullet list htmlHtml By Ashamed Armadillo on Sep 11 2020
+          <ul>
+            <li>Measure traffic density</li>
+            <li>Control the traffic signals using AI</li>
+            <li>Keep track of Traffic violation</li>
+          </ul>
+          <div class="button-wrapper">
+            <a href="product1"><button>Read More</button></a>
           </div>
-          <div class="details">
-            <h6>Phone Number</h6>
-            <p>+91-9845102222</p>
+        </div>
+        <div class="card info-tile">
+          <div class="infographic"><i class="fas fa-user-shield"></i></div>
+          <div class="title">Security</div>
+          <ul>
+            <li>Secure Mobile App</li>
+            <li>Crime Detection</li>
+            <li>Children Detection</li>
+          </ul>
+          <div class="button-wrapper">
+            <a href="product2"><button>Read More</button></a>
           </div>
-          <div class="details">
-            <h6>Connect</h6>
-            <p class="social-links">
-              <a
-                href="https://www.linkedin.com/company/beltechai/"
-                target="_blank"
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
-              <a href="https://angel.co/company/beltech-3" target="_blank"
-                ><i class="fab fa-angellist"></i
-              ></a>
-              <a href="https://www.facebook.com/beltech1/" target="_blank"
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-            </p>
+        </div>
+        <div class="card info-tile">
+          <div class="infographic"><span class="iconify" data-icon="emojione-monotone:cityscape"
+              data-inline="false"></span></div>
+          <div class="title">Smart City</div>
+          <ul>
+            <li>Wifi Over the City</li>
+            <li>Garbage Detector</li>
+            <li>Smart Street Light</li>
+          </ul>
+          <div class="button-wrapper">
+            <a href="product3"><button>Read More</button></a>
+          </div>
+        </div>
+        <div class="card info-tile">
+          <div class="infographic"><i class="fas fa-bus"></i></div>
+          <div class="title">Public Transport Tracking</div>
+          <ul>
+            <li>Bus Tracking</li>
+            <li>Auto Ricksha Tracking</li>
+            <li>Tracking Smart Bikes</li>
+          </ul>
+          <div class="button-wrapper">
+            <a href="product4"><button>Read More</button></a>
           </div>
         </div>
       </div>
-    </section>
-    <footer></footer>
-    <div class="black-screen close"></div>
-    <div class="team-pop-up close"></div>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-    <script type="text/javascript" src="js/static.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
-    <script type="text/javascript" src="../js/team.js"></script>
-  </body>
+    </div>
+  </section>
+  <section id="team" class="fix-space-bottom">
+    <h3 class="center">Our Core Team</h3>
+    <div class="content-lg">
+      <div class="team-wrapper">
+        <div class="team-member" aria-label="${index}">
+          <div class="photo"><img src="./team/Agastya.png" alt="Team member image" /></div>
+          <p class="lg">Agastya Bellad</p>
+          <p>CEO</p>
+        </div>
+        <div class="team-member" aria-label="${index}">
+          <div class="photo"><img src="./team/Pinakee.jpeg" alt="Team member image" /></div>
+          <p class="lg">Pinakee Biswas</p>
+          <p>CTO</p>
+        </div>
+        <div class="team-member" aria-label="${index}">
+          <div class="photo"><img src="./team/Pranav.jpg" alt="Team member image" /></div>
+          <p class="lg">Pranav Bijapur</p>
+          <p>ML Engineer</p>
+        </div>
+        <div class="team-member" aria-label="${index}">
+          <div class="photo"><img src="./team/Adithya.png" alt="Team member image" /></div>
+          <p class="lg">Adithya Sampath</p>
+          <p>Computer Vision Engineer</p>
+        </div>
+      </div>
+    </div>
+    <div class="button-wrapper">
+      <a href="team"><button class="color">
+          Our Complete Team <i class="fas fa-user-friends"></i></button></a>
+    </div>
+  </section>
+  <section id="product" class="grey fix-space-bottom fix-space-top">
+    <h3 class="center margins-xl">Open platform for developers</h3>
+    <h5 class="center margins-xl coming-soon">COMING &nbsp;&nbsp;SOON</h5>
+  </section>
+  <section id="careers" class="dark dark-color fix-space-bottom">
+    <div class="content-lg">
+      <h3>Join Our Team</h3>
+      <hr class="bottom-margin" />
+      <h6>Who we are looking for: </h6>
+      <p>We value trajectory of growth over years of experience. If you:</p>
+      <p>1. Are motivated by big gnarly problems, not by titles.</p>
+      <p>2. Are a generalist looking for a challenge to prove yourself.</p>
+      <p>
+        3. Are hungry for learning, winning and have something outstanding to
+        show for it.
+      </p>
+      <p>
+        4. Understand when to make trade-offs and are insistent that quality
+        doesn't always have to compromise speed.
+      </p>
+      <p>
+        5. Are a team player and understand a certain level of empathy is
+        required to empower an entire team over the individual.
+      </p>
+    </div>
+    <div class="button-wrapper">
+      <a href="careers"><button class="color">
+          Open Roles<i class="fas fa-briefcase"></i></button></a>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="content-lg">
+      <h3 class="center">Contact</h3>
+      <div class="contact-wrapper">
+        <div class="details">
+          <h6>Office Address</h6>
+          <p>
+            <span>20/1. Ali Asker Rd,</span>
+            <span>Vasanth Nagar, Bengaluru,</span>
+            <span>Karnataka 560052</span>
+          </p>
+        </div>
+        <div class="details">
+          <h6>E-mail</h6>
+          <p>office@beltech.ai</p>
+        </div>
+        <div class="details">
+          <h6>Phone Number</h6>
+          <p>+91-9845102222</p>
+        </div>
+        <div class="details">
+          <h6>Connect</h6>
+          <p class="social-links">
+            <a href="https://www.linkedin.com/company/beltechai/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://angel.co/company/beltech-3" target="_blank"><i class="fab fa-angellist"></i></a>
+            <a href="https://www.facebook.com/beltech1/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer></footer>
+  <div class="black-screen close"></div>
+  <div class="team-pop-up close"></div>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <script type="text/javascript" src="js/static.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
+  <script type="text/javascript" src="../js/team.js"></script>
+</body>
+
 </html>
