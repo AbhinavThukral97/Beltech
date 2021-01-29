@@ -908,7 +908,6 @@ input.search-box:focus {
   padding: 40px 0px; }
   .team-wrapper .team-member {
     width: calc(240px - 40px);
-    height: 12rem;
     padding: 20px;
     padding-bottom: 40px;
     border: 1px solid #ebf0f3;
