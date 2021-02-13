@@ -82,7 +82,7 @@ function generateFooter(page) {
   </div>
   </div>
   <p class="sm">
-    &copy; Copyright Beltech Green Pvt. Ltd. 2020 &middot; Made by <a>Abhinav Thukral</a>
+    &copy; Copyright Beltech Green Pvt. Ltd. 2021 &middot; </a>
   </p>
 </div>`;
   return footerHTML;
